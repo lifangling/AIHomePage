@@ -1,0 +1,133 @@
+html {
+  margin: 0px;
+  padding: 0px;
+  width: 100%;
+  height: 100%; 
+  min-width: 1280px;
+  min-height: 800px;
+}
+
+body{
+	margin: 0px;
+  	padding: 0px;
+  	font-family: Microsoft YaHei;
+  	width: 100%; 
+  	color:#fff!important;
+    background: url('/images/bg.png');
+}
+
+ul {
+    list-style: none !important;
+    margin: 0;
+    padding: 0;
+}
+
+li{
+	list-style:none;
+}
+
+a{
+	text-decoration : none;
+}
+
+.icon {
+   width: 9em; 
+   height: 9em;
+   vertical-align: -0.15em;
+   fill: currentColor;
+   overflow: hidden;
+}
+
+.top{
+	box-sizing:border-box;
+	//margin:1.5625% 0 0 0;
+	line-height:45px;
+	padding:30px 0 0 18.3%;
+	overflow:hidden;
+	position:fixed;
+	z-index: 11;
+	a{
+		color:#fff;
+	}
+	.logoWrap{
+		position:relative;
+		float:left;
+		align-items: center;
+		font-size: 28px;
+		width:167px;
+		margin-left: -100%;
+		left:-23.666667%;
+	}
+
+	.menu-container{
+		position:relative;
+		width: 100%;
+		float:left;
+		//padding-left:200px;
+		.header_menu{
+			list-style: none !important;
+			.menu-item{
+		    	// flex:1;
+		    	
+		    	position:relative;
+		    	display: inline-block;
+		    	box-sizing: border-box;
+				margin-right: 35px;
+		    	text-align: center;
+		    	padding:0 27px;
+		    	a{
+		    		font-size: 	20px;
+		    	}
+			}
+
+			.short:hover,.current-menu-item-short{
+				background:url('/images/navigation_choose_s.png');
+				background-repeat:no-repeat;
+			}
+
+			.long:hover,.current-menu-item{
+				background:url('/images/navigation_choose_l.png');
+				background-repeat:no-repeat;
+			}
+		}
+	}
+}
+
+.last{
+	width: 100%;
+	background: #F4F4F4;
+	.group{
+		border-bottom: 1px solid #979797;
+		padding: 50px 0;
+		.logo{
+			display: inline-block;
+			width: 20%;
+			text-align:right;
+		}
+		.address{
+			display: inline-block;
+			width: 60%;
+			font-size: 18px;
+			color: #1A8DC8;
+			text-align: center;
+		}
+		.ma{
+			display: inline-block;
+			width: 19%;
+			text-align:left;
+			font-size: 18px;
+			color: #1A8DC8;
+
+		}
+	}
+
+	.right{
+		width: 80%;
+		padding: 30px 0;
+		margin:0 auto;
+		font-family: PingFangSC-Regular;
+		font-size: 16px;
+		color: #1A8DC8;
+		text-align: center;
+	}
+}
