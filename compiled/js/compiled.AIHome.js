@@ -3,7 +3,7 @@ window.onload = function() {
 
 	//加载导航
 	$(".top").load("/html/header.html");
-
+	//整体滑动效果
 	var mySwiper = new Swiper('.swiper-container', {
 		speed: 400,
 		mode: 'vertical',
